@@ -35,9 +35,9 @@ Run scripts that set and use environment variables across platforms
 
 Most Windows command prompts will choke when you set environment variables with
 `NODE_ENV=production` like that. (The exception is [Bash on Windows][win-bash],
-which uses native Bash.) Similarly, there's a difference in how windows and
+which uses native Bash.) Similarly, there's a difference in how Windows and
 POSIX commands utilize environment variables. With POSIX, you use: `$ENV_VAR`
-and on windows you use `%ENV_VAR%`.
+and on Windows you use `%ENV_VAR%`.
 
 ## This solution
 
